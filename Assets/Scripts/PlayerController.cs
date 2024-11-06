@@ -34,11 +34,11 @@ public class PlayerController : MonoBehaviour
         // Actualizează animația în funcție de mișcare
         if (IsMoving())
         {
-            animator.SetBool("isRunning", true);
+            animator.SetBool("Walk", true);
         }
         else
         {
-            animator.SetBool("isRunning", false);
+            animator.SetBool("Walk", false);
         }
     }
 
