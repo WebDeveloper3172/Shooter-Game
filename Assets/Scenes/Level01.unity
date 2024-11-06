@@ -26908,10 +26908,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3d080f8c1554e56488d6e8944c115a5c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 8
-  rotatespeed: 8
+  walkSpeed: 5
+  runSpeed: 10
+  jumpForce: 5
+  rotateSpeed: 0
   variableJoystick: {fileID: 689161630}
   rb: {fileID: 1683663942511991557}
+  groundCheck: {fileID: 8439292678520712371}
+  groundLayer:
+    serializedVersion: 2
+    m_Bits: 0
 --- !u!4 &546780030803859594
 Transform:
   m_ObjectHideFlags: 0
